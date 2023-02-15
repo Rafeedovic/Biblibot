@@ -1,0 +1,59 @@
+version: "3.1"
+
+intents:
+  - greet
+  - se_connecter
+  - s_inscrire
+  - biblichor
+  - emprunter_livre
+  - louer_son_livre
+  - payer
+  - contacter_equipe
+  - recupere_livre
+  - sécurité
+  - goodbye
+  - remerciement
+  
+responses:
+  utter_greet:
+  - text: "Salut !"
+
+  utter_se_connecter:
+  - text: "Pour vous connecter vous pouvez consulter ce lien ci-dessous :(lien) "
+
+  utter_s_inscrire:
+  - text: "Pour vous inscrire vous pouvez consulter ce lien ci-dessous : (lien) "
+
+  utter_biblichor:
+  - text: "Biblichor vous permet de partager le plaisir de lire avec vos amis, votre famille et vos communautés en toute sécurité. Prêtez, empruntez, retrouvez vos livres papiers préférés"
+
+  utter_goodbye:
+  - text: "Au revoir !"
+
+  utter_emprunter:
+    - text: "Explorez les bibliothèques de vos amis pour leur emprunter votre nouveau livre préféré. Et prêtez les vôtres en toute sécurité."
+
+  utter_louer_son_livre:
+    - text: "Ne cherchez plus où sont passés vos livres ! La section 'mes prêts' vous permet de savoir à qui et quand vous avez prêté ce livre et même de relancer à qui vous avez prêté par mail pour qu’il vous le rende."
+
+  utter_payer:
+  - text: "Prêtez vos livres à vos amis pour que vous puissiez gagner de l'argent. Et économisez plus grâce à notre plateforme puisque vous empruntez des livres à moindre prix.."
+
+  utter_contacter_equipe:
+  - text: "Vous avez besoin d aide.. Nous nous engageons à aider nos utilisateurs à prospérer avec un soutien (lien)."
+
+  utter_recupere_un_livre:
+  - text: "Il ya deux méthodes, soit par livraison soit par la récupération à l'adresse du proprietaire du livre."
+
+  utter_sécurité:
+  - text: "Si vous n'avez pas rapporté les livres à la date de retour, nous porterons des frais de non retour. Après tout, quand on loue quelque chose, ce n'est pas pour la vie!."
+
+  utter_remercier:
+  - text: "Merci à toi !"
+
+  utter_iamabot:
+  - text: "Je suis le robot de Biblichor : BIBLIBOT."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,207 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - salut
+    - slt
+    - bonjour
+    - bonsoir
+    - hey
+    - salem
+    - slm
+    - yo
+    - hi
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - morning
+    - sa va?
+    - sa va
+    - cv
+    - chna7welk
+
+- intent: se_connecter
+  examples: |
+    - connecter
+    - me connecter
+    - avoir un compte
+    - ajouter des livres
+    - se connecter
+    - connexion
+    - connection
+    - comment se connecter
+    - comment acceder a mon compte
+    - mon compte
+    - compte
+    - mail
+    - mot de passe
+    - sign in
+  
+- intent: s_inscrire
+  examples: |
+    - inscription
+    - m'inscrire
+    - inscrire
+    - creer compte
+    - comment creer compte
+    - comment inscrire
+    - sign up
+
+- intent: biblichor
+  examples: |
+    - biblichor
+    - c'est quoi biblichor
+    - bibli
+    - explique moi biblichor
+    - concept
+    - start up 
+    - explique 
+
+- intent: emprunter_livre
+  examples: |
+    - emprunter 
+    - emprunter un livre
+    - comment emprunter un livre
+    - comment avoir un livre
+    - emprunt
+    - emprunt livre
+    - avoir livre
+    - acheter un livre
+    - livre gratuit
+
+- intent: louer_son_livre
+  examples: |
+    - louer 
+    - louer un livre
+    - comment louer un livre
+    - comment louer un livre
+    - location
+    - louer livre
+    - avoir livre
+    - acheter un livre
+    - livre gratuit
+
+- intent: payer
+  examples: |
+    - payer
+    - procédure paiement
+    - paiement
+    - payement
+    - panier
+    - panier livre
+    - frais livre
+    - frais
+    - comment payer
+    - argent
+    - prix
+    - prix livre
+    - prix location
+    - prix gratuit
+    - gratuit
+    - comment payer mon livre
+    - combien coute un livre
+    - prix fixe ?
+    - compte bancaire
+    - Master card
+    - carte E-dinar
+    - a propos le paiement
+    - annulation
+
+- intent: contacter_equipe
+  examples: |
+    - contact
+    - contacter 
+    - contacter equipe
+    - equipe 
+    - equipe projet
+    - assistant
+    - assistance
+    - contact mail
+    - numéro
+    - contact numéro
+    - comment contacter l'equipe
+    - comment contacter un assistant
+    - ahmed
+    - chiheb
+    - rafed
+    - nihed
+    - houssem
+    - salim
+    - lobna 
+    - envoyer un mail
+    - adresse mail equipe
+    - noumrou
+
+
+- intent: recupere_livre
+  examples: |
+    - comment récupérer un livre
+    - récupérer
+    - récupération
+    - livraison
+    - livrer
+    - prix livraison
+    - qui va livrer
+    - livraison
+    - pick up
+    - livre proprietaire
+    - proprietaire livre adresse
+    - adresse
+    - adresse livraison
+
+- intent: sécurité
+  examples: |
+    - sécurité
+    - est-ce que l'emprunt est sécurisé
+    - sécurisé mon livre
+    - sécurité livre
+    - déchirer livre
+    - livre perdu
+    - perte
+    - si je perd mon livre
+    - vol livre
+    - mon livre est volé
+    - si mon livre est volé
+    - si perte livre
+    - si mon livre est endomagé
+    - damage livre
+    - livre endommagé
+    - peur
+    - confiance
+    - sécurisé
+    - https
+    - sécurité paiement
+    - peur
+    - certification sécurité
+    - site certifié
+
+- intent: goodbye
+  examples: |
+    - au revoir
+    - bonne journée
+    - bonne soirée
+    - Goodbye
+
+- intent: remerciement
+  examples: |
+    - merci
+    - merci bot
+    - merci infiniment
+    - merci à toi
+    - non merci
+    - oui merci
+    - mes remerciements
+    - remerciement
+    - Thanks
+    - honneur
+    - sincere

@@ -1,0 +1,82 @@
+version: "3.1"
+
+stories:
+
+- story: contacter_equipe
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contacter_equipe
+  - action: utter_contacter_equipe
+
+- story: se_connecter
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: se_connecter
+  - action: utter_se_connecter
+
+- story: s_inscrire
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: s_inscrire
+  - action: utter_s_inscrire
+
+- story: biblichor
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: biblichor
+  - action: utter_biblichor
+
+- story: emprunter_livre
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: emprunter_livre
+  - action: utter_emprunter
+
+- story: louer_son_livre
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: louer_son_livre
+  - action: utter_louer_son_livre
+
+- story: payer
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: payer
+  - action: utter_payer
+
+- story: recupere_livre
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recupere_livre
+  - action: utter_recupere_un_livre
+
+- story: sécurité
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sécurité
+  - action: utter_sécurité
+
+- story: goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: remerciement
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: remerciement
+  - action: utter_remercier
+
+
